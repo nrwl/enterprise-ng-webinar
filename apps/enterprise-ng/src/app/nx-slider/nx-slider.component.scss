@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  overflow: hidden;
+}
+
+.slider {
+  display: inline-block;
+  background-color: #143055;
+  color: white;
+  padding: 8px 14px 12px;
+  line-height: 30px;
+  border-radius: 6px;
+  font-size: 30px;
+  margin: 1em;
+}
+img {
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+.message {
+  display: inline-block;
+  position: relative;
+}
+.cover {
+  position: absolute;
+  height: 28px;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 2%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
