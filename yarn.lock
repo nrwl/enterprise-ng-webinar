@@ -1563,6 +1563,18 @@
     tar "5.0.5"
     uuid "^3.3.3"
 
+"@nrwl/storybook@10.2.1":
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-10.2.1.tgz#8faf35e065c597cf156bed7a215ab925fe9aa5f8"
+  integrity sha512-PMMgIEUV9gUi0aCauOQe7c12qW2wPVNMiYZXr9wUFYn2f5U7W26dQ9rsGzQETHJ9YDMv72qeu6xL2P4YuD/u/w==
+  dependencies:
+    "@nrwl/cypress" "10.2.1"
+    core-js "^3.6.5"
+    tree-kill "1.2.2"
+    ts-loader "5.3.1"
+    tsconfig-paths-webpack-plugin "3.2.0"
+    webpack-node-externals "1.7.2"
+
 "@nrwl/tao@10.2.1":
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-10.2.1.tgz#0f5ca49873450861fc9dd5e5f58e67ee9c75e23e"
@@ -3434,6 +3446,11 @@ core-js@3.6.4:
   version "3.6.4"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
   integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
+
+core-js@^3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -10351,6 +10368,17 @@ ts-jest@26.x:
     mkdirp "1.x"
     semver "7.x"
     yargs-parser "20.x"
+
+ts-loader@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.3.1.tgz#70614c8ec4354a9c8b89c9f97b2becb7a98a3980"
+  integrity sha512-fDDgpBH3SR8xlt2MasLdz3Yy611PQ/UY/KGyo7TgXhTRU/6sS8uGG0nJYnU1OdFBNKcoYbId1UTNaAOUn+i41g==
+  dependencies:
+    chalk "^2.3.0"
+    enhanced-resolve "^4.0.0"
+    loader-utils "^1.0.2"
+    micromatch "^3.1.4"
+    semver "^5.0.1"
 
 ts-loader@^5.3.1:
   version "5.4.5"
